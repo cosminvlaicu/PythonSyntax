@@ -17,6 +17,10 @@ for index, element in enumerate(pairs):
 multiplications = [i * j for i in range(3) for j in range(3)]
 print(multiplications)
 
+# insert
+lst.insert(0,132123)
+print(lst)
+
 # concatenate lists
 print([1, 2, 3] + [4])
 
